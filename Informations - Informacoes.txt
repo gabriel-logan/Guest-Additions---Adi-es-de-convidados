@@ -1,0 +1,12 @@
+The VirtualBox Guest Additions consist of device drivers and system 
+applications that optimize the operating system for better performance and usability. 
+One of the usability features required in this guide is automated 
+logons, which is why you need to install the Guest Additions in the virtual machine.
+
+#################################################################################################
+
+O VirtualBox Guest Additions consiste em drivers de dispositivo e aplicativos 
+de sistema que otimizam o sistema operacional para melhor desempenho e usabilidade. 
+Um dos recursos de usabilidade exigidos neste guia são os 
+logons automatizados, e é por isso que você precisa instalar o Guest Additions na máquina virtual.
+Adições de convidados

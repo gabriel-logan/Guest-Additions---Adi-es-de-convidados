@@ -1,0 +1,19 @@
+It might be that the /media/cdrom0 filesystem has the noexec flag set. You can check this with:
+
+sudo mount -v | grep cdrom0
+
+If there is noexec between the parentheses, files on the filesystem are not executable.
+
+You can try remounting the filesystem with the exec flag:
+
+sudo mount -o remount,exec,ro /media/cdrom0
+#######################################################################################################################
+Pode ser que o sistema de arquivos /media/cdrom0 tenha a flag noexec definido. Você pode verificar isso com:
+
+sudo monte -v | grep cdrom0
+
+Se houver noexec entre os parênteses, os arquivos no sistema de arquivos não são executáveis.
+
+Você pode tentar remontar o sistema de arquivos com o flag exec:
+
+sudo mount -o remount,exec,ro /media/cdrom0
